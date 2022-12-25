@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+        android:title="credits"
+        android:icon="@drawable/ic_baseline_groups_24"
+        app:showAsAction="never">
+        <menu>
+
+
+
+            <item android:id="@+id/subitem1"
+                android:title="Gregorio, Franco, M."/>
+
+            <item android:id="@+id/subitem2"
+                android:title="Acedo, Jake C."/>
+
+            <item android:id="@+id/subitem3"
+                android:title="Santos, Joshua D."/>
+
+            <item android:id="@+id/subitem4"
+                android:title="Aguilar, Ellyssa Mae D."/>
+
+            <item android:id="@+id/subitem5"
+                android:title="Rodillas, Jelane M."/>
+
+            <item android:id="@+id/subitem6"
+                android:title="Mateo, Javier P."/>
+
+            <item android:id="@+id/subitem7"
+                android:title="Delmonte, Jushua L."/>
+
+            <item android:id="@+id/subitem8"
+                android:title="Sotelo, Em-jay B."/>
+
+            <item android:id="@+id/subitem9"
+                android:title="Pascual, Cedrick C."/>
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/PrivacyPolicy"
+        app:showAsAction="never"
+        android:title="About"/>
+
+    <item android:id="@+id/Settings"
+        app:showAsAction="never"
+        android:title="Settings"/>
+
+    <item android:id="@+id/Exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Exit"
+        app:showAsAction="never"/>
+
+</menu>
